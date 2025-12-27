@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #31a0cc;
+    background: linear-gradient(90deg, rgba(49, 160, 204, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+canvas {
+    box-shadow: 0 0 5px black;
+}
+
+.wrapper, .canvas, .control {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.canvas, .control {
+    justify-content: center;
+}
+
+.btn {
+    width: 100px;
+    padding: 10px 20px;
+    border: rgb(0, 122, 198);
+    background-color: rgb(72, 166, 197);
+    color: #fff;
+}
